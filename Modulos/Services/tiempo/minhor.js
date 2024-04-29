@@ -1,5 +1,5 @@
 import { numeroValido } from '../validadores/numero.js'
-import { minhorFinal } from './dmmFinal.js'
+import { minhorFinal } from './minhorFinal.js'
 
 export function minhor() {
     let menu = `
