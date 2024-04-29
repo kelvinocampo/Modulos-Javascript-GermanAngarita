@@ -1,6 +1,6 @@
 import { mostrar } from './Services/mostrar.js'
 import { menuLongitud} from './Services/longitud/longitud.js'
-import { menuTiempo } from './Services/tiempo/tiempo.js'
+import { matematicas } from './Services/matematicas/matematicas.js'
 
 export function mainMenu() {
     let menu = `
@@ -18,7 +18,7 @@ export function mainMenu() {
             menuLongitud()
             break;
         case 2:
-            aritmetica()
+            matematicas()
             break;
         case 3:
             menuTiempo()
