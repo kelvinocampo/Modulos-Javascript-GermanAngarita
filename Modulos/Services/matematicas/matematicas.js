@@ -1,5 +1,9 @@
 import { mainMenu } from "./../../main.js";
 import { mostrar } from './../mostrar.js'
+import { sumar } from './sumar.js'
+import { restar } from './restar.js'
+import { dividir } from './dividir.js'
+import { multiplicar } from './multiplicar.js'
 
 export function matematicas() {
     let menu = `
