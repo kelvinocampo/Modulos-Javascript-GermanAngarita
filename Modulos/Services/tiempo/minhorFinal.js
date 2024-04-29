@@ -14,7 +14,7 @@ export function minhorFinal(valor,resultado) {
     let opcion = parseInt(prompt(menu))
     switch (opcion) {
         case 1:
-            dmm()
+            minhor()
             break;
         case 2:
             mainMenu()
