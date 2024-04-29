@@ -1,4 +1,5 @@
 import { numeroValido } from './../validadores/numero.js'
+import { mkmFinal } from './mkmFinal.js'
 
 export function mkm() {
     let menu = `
@@ -6,6 +7,6 @@ export function mkm() {
     let cantidad = parseInt(prompt(menu))
     if (numeroValido(cantidad)) {
         let resultado = cantidad / 1000
-        
+        mkmFinal(cantidad,resultado)
     }
 }

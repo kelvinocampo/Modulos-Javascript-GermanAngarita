@@ -1,25 +1,26 @@
-import { mainMenu } from "./../../main.js";
-import { mostrar } from './../mostrar.js'
+import { mostrar } from '../mostrar.js'
+import { mainMenu } from '../../main.js'
 import { dmm } from './dmm.js'
-import { mkm } from './mkm.js'
 
-export function menuLongitud() {
+export function dmmFinal(valor,resultado) {
     let menu = `
+    ${valor} dm SON ${resultado} m
     Digite,
-    1 Para convertir m a km
-    2 Para convertir dm a m
+    1 Para convertir nuevamente
+    dm a m
+    2 Para volver al menu principal
     ...
-    0 Para devolverse`
+    0 Para salir`
     let opcion = parseInt(prompt(menu))
     switch (opcion) {
         case 1:
-            mkm()
-            break;
-        case 2:
             dmm()
             break;
-        case 0:
+        case 2:
             mainMenu()
+            break;
+        case 0:
+            mostrar('Programa finalizado')
             break;
         default:
             mostrar('El opcion ingresada no es valida')
