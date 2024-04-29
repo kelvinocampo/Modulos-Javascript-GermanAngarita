@@ -3,10 +3,10 @@ import { minhorFinal } from './minhorFinal.js'
 
 export function minhor() {
     let menu = `
-    Digite la cantidad de minutos a convertir`
+    Digite la cantidad de horas a convertir`
     let cantidad = parseInt(prompt(menu))
     if (numeroValido(cantidad)) {
-        let resultado = cantidad / 10
+        let resultado = cantidad *60
         minhorFinal(cantidad,resultado)
     }
 }

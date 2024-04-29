@@ -7,7 +7,6 @@ export function minsegFinal(valor,resultado) {
     ${valor} minutos SON ${resultado} segundos
     Digite,
     1 Para convertir nuevamente
-    m a km
     2 Para volver al menu principal
     ...
     0 Para salir`

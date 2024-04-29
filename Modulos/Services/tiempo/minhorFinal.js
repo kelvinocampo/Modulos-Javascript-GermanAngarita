@@ -4,10 +4,9 @@ import { minhor } from './minhor.js'
 
 export function minhorFinal(valor,resultado) {
     let menu = `
-    ${valor} dm SON ${resultado} m
+    ${valor} horas SON ${resultado} minutos
     Digite,
     1 Para convertir nuevamente
-    dm a m
     2 Para volver al menu principal
     ...
     0 Para salir`
