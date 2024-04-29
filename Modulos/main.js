@@ -1,6 +1,7 @@
 import { mostrar } from './Services/mostrar.js'
 import { menuLongitud} from './Services/longitud/longitud.js'
 import { matematicas } from './Services/matematicas/matematicas.js'
+import {menuTiempo} from './Services/tiempo/tiempo.js'
 
 export function mainMenu() {
     let menu = `
