@@ -6,7 +6,7 @@ export function minseg() {
     Digite la cantidad de minutos a convertir`
     let cantidad = parseInt(prompt(menu))
     if (numeroValido(cantidad)) {
-        let resultado = cantidad / 60
+        let resultado = cantidad * 60
         minsegFinal(cantidad,resultado)
     }
 }
