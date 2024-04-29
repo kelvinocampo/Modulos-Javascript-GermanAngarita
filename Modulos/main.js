@@ -1,5 +1,6 @@
 import { mostrar } from './Services/mostrar.js'
 import { menuLongitud} from './Services/longitud/longitud.js'
+import { menuTiempo } from './Services/tiempo/tiempo.js'
 
 export function mainMenu() {
     let menu = `
@@ -20,7 +21,7 @@ export function mainMenu() {
             aritmetica()
             break;
         case 3:
-            tiempo()
+            menuTiempo()
             break;
         case 0:
             mostrar('programa finalizado')

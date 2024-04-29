@@ -1,25 +1,26 @@
-import { mainMenu } from "./../../main.js";
-import { mostrar } from './../mostrar.js'
+import { mostrar } from '../mostrar.js'
+import { mainMenu } from '../../main.js'
 import { minseg } from './minseg.js'
-import { minhor } from './minhor.js'
 
-export function menuTiempo() {
+export function minsegFinal(valor,resultado) {
     let menu = `
+    ${valor} minutos SON ${resultado} segundos
     Digite,
-    1 Para convertir minutos a segundos
-    2 Para convertir horas a minutos
+    1 Para convertir nuevamente
+    m a km
+    2 Para volver al menu principal
     ...
-    0 Para devolverse`
+    0 Para salir`
     let opcion = parseInt(prompt(menu))
     switch (opcion) {
         case 1:
             minseg()
             break;
         case 2:
-            minhor()
+            mainMenu()
             break;
         case 0:
-            mainMenu()
+            mostrar('Programa finalizado')
             break;
         default:
             mostrar('El opcion ingresada no es valida')
