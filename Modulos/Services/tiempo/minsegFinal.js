@@ -23,6 +23,6 @@ export function minsegFinal(valor,resultado) {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            minsegFinal()
+            minsegFinal(valor,resultado)
     }
 }

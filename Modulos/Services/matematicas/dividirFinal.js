@@ -23,6 +23,6 @@ export function dividirFinal(resultado) {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            dividirFinal()
+            dividirFinal(resultado)
     }
 }

@@ -24,6 +24,6 @@ export function dmmFinal(valor,resultado) {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            dmmFinal
+            dmmFinal(valor,resultado)
     }
 }

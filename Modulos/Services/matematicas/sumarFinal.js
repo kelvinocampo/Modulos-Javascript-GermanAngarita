@@ -23,6 +23,6 @@ export function sumarFinal(resultado) {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            sumarFinal
+            sumarFinal(resultado)
     }
 }
