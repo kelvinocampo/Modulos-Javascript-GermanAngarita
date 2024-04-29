@@ -4,7 +4,7 @@ import { mkm } from './mkm'
 export function menuLongitudFinal() {
     let menu = `
     Digite,
-    1 Para convertir nuevamente
+    1 Para convertir PEPEP nuevamente
     m a km
     2 Para volver al menu principal
     ...
