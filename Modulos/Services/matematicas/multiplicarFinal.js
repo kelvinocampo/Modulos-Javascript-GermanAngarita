@@ -23,6 +23,6 @@ export function multiplicarFinal(resultado) {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            break;
+            multiplicarFinal()
     }
 }

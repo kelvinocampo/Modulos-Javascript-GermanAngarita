@@ -23,6 +23,6 @@ export function minhorFinal(valor,resultado) {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            break;
+            minhorFinal()
     }
 }

@@ -1,3 +1,4 @@
+import { mostrar } from '../mostrar.js'
 import { numeroValido } from './../validadores/numero.js'
 import { mkmFinal } from './mkmFinal.js'
 
@@ -8,5 +9,8 @@ export function mkm() {
     if (numeroValido(cantidad)) {
         let resultado = cantidad / 1000
         mkmFinal(cantidad,resultado)
+    }else{
+        mostrar('La cantidad ingresada no es valida ')
+        mkm()
     }
 }

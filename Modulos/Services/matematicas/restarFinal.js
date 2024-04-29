@@ -23,6 +23,6 @@ export function restarFinal(resultado) {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            break;
+            restarFinal
     }
 }

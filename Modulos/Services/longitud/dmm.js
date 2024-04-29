@@ -1,3 +1,4 @@
+import { mostrar } from '../mostrar.js'
 import { numeroValido } from '../validadores/numero.js'
 import { dmmFinal } from './dmmFinal.js'
 
@@ -8,5 +9,8 @@ export function dmm() {
     if (numeroValido(cantidad)) {
         let resultado = cantidad / 10
         dmmFinal(cantidad,resultado)
+    }else{
+        mostrar('La cantidad ingresada no es valida')
+        dmm()
     }
 }

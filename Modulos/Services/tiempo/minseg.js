@@ -1,5 +1,6 @@
 import { numeroValido } from './../validadores/numero.js'
 import { minsegFinal } from './minsegFinal.js'
+import { mostrar } from './../mostrar.js'
 
 export function minseg() {
     let menu = `
@@ -8,5 +9,8 @@ export function minseg() {
     if (numeroValido(cantidad)) {
         let resultado = cantidad * 60
         minsegFinal(cantidad,resultado)
+    }else{
+        mostrar('Los minutos no son validas')
+        minseg()
     }
 }

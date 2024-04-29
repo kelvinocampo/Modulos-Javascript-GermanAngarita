@@ -24,6 +24,6 @@ export function mkmFinal(valor,resultado) {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            break;
+            mkmFinal()
     }
 }

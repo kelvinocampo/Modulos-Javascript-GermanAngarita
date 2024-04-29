@@ -29,7 +29,7 @@ export function mainMenu() {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            break;
+            mainMenu()
     }
 }
 

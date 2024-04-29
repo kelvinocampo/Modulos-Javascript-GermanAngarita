@@ -33,6 +33,6 @@ export function matematicas() {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            break;
+            matematicas()
     }
 }

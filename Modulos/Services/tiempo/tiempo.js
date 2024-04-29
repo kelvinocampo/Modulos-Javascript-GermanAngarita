@@ -23,6 +23,6 @@ export function menuTiempo() {
             break;
         default:
             mostrar('El opcion ingresada no es valida')
-            break;
+            menuTiempo()
     }
 }
