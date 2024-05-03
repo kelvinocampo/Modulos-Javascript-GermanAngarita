@@ -7,7 +7,7 @@ export function minhor() {
     Digite la cantidad de horas a convertir`
     let cantidad = parseInt(prompt(menu))
     if (numeroValido(cantidad)) {
-        let resultado = cantidad *60
+        let resultado = cantidad * 60
         minhorFinal(cantidad,resultado)
     }else{
         mostrar('Las horas no son validas')

@@ -3,6 +3,7 @@ import { mostrar } from './../mostrar.js'
 import { minseg } from './minseg.js'
 import { minhor } from './minhor.js'
 import { horaSeg } from './horaSeg.js'
+import { horMin } from './horMin.js';
 
 export function menuTiempo() {
     let menu = `
@@ -10,6 +11,7 @@ export function menuTiempo() {
     1 Para convertir minutos a segundos
     2 Para convertir horas a minutos
     3 Para convertir horas a segundos
+    4 Para convertir minutos a horas
     ...
     0 Para devolverse`
     let opcion = parseInt(prompt(menu))
@@ -22,6 +24,9 @@ export function menuTiempo() {
             break;
         case 3:
             horaSeg()
+            break;
+        case 4:
+            horMin()
             break;
         case 0:
             mainMenu()
