@@ -22,7 +22,7 @@ export function menuLongitud() {
             mainMenu()
             break;
         default:
-            mostrar('El opcion ingresada no es valida')
+            mostrar('La opcion ingresada no es valida')
             menuLongitud()
     }
 }
